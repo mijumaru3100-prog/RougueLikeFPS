@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9c398ee02ecc4e5e8d9a08062effe5b, type: 3}
+  m_Name: SCAR Type Reload
+  m_EditorClassIdentifier: Assembly-CSharp::SCARTypeReload
+  reloadTime: 3.5
+  baseTiltTime: 0.5
+  baseDropTime: 1
+  baseInsertTime: 1
+  baseDropToInsertTime: 0.5
+  baseBoltMoveTime: 0.3
+  baseHand_boltMoveTime: 0.5
+  tiltAngle: {x: 0, y: 0, z: -45}
+  dropDistance: {x: 0, y: -1, z: 0}
+  spawnPoint: {x: 0, y: -1, z: 0}
+  shakeStrength: 11
+  handMagazinePoint: {x: 0.312, y: 0.715, z: -0.275}
+  tekubiHandMagazineRotation: {x: 0, y: 0, z: 45}
+  boltHandPosition: {x: 0.06, y: 0.721, z: -0.491}
+  boltHandPosition2: {x: -0.025, y: 0.695, z: -0.526}
+  boltMoveDistance: {x: 0, y: 0.11250001, z: 0.26500085}
+  tekubiBoltRotation: {x: 4.88311, y: 292.91885, z: 2.0628955}
+  releaseTime: 0.09
+  magOutClip: {fileID: 8300000, guid: 1abe82a69d7ea4da89bcf7edb5a89316, type: 3}
+  magInsertClip: {fileID: 8300000, guid: 4a8bfdeca0e4d46f0bf19159c2fa513b, type: 3}
+  magHitClip: {fileID: 8300000, guid: 0e0ff929a26ca42c484f95df68057d94, type: 3}
+  boltClip: {fileID: 8300000, guid: 25c43768af77c4502a8916368c93b7ab, type: 3}

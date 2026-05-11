@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: StatsDatabase 1
+  m_EditorClassIdentifier: Assembly-CSharp::StatsDatabase
+  stats:
+  - statName: "\u8EFD\u91CF\u5F3E"
+    defaultPrice: 60
+    icon: {fileID: 0}
+    model: {fileID: 4238135973665710441, guid: 158497e8a9e474d31a45d71035d41d8b, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B80.7\u500D/\u5C04\u6483\u30EC\u30FC\u30C81.2\u500D"
+    stats: {fileID: 11400000, guid: d82f84399543c40a6b20a31aaaa0ae6f, type: 2}
+  - statName: "\u5B89\u5B9A\u5C04\u6483\u30D1\u30FC\u30C4"
+    defaultPrice: 75
+    icon: {fileID: 0}
+    model: {fileID: 3708033556224249761, guid: 7749fcbca95d44adcabf5512692e2858, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B80.9\u500D/\u53CD\u52D50.6\u500D"
+    stats: {fileID: 11400000, guid: ac491d5cb4ad6490d8dc828cfe423621, type: 2}
+  - statName: "\u4E0D\u5B89\u5B9A\u5C04\u6483\u30D1\u30FC\u30C4"
+    defaultPrice: 70
+    icon: {fileID: 0}
+    model: {fileID: 3708033556224249761, guid: 7749fcbca95d44adcabf5512692e2858, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B81.1\u500D/\u53CD\u52D51.2\u500D"
+    stats: {fileID: 11400000, guid: a815b7f5281df47789d78c50fdc13ab9, type: 2}
+  - statName: "\u5BFE\u4EBA\u5F3E"
+    defaultPrice: 50
+    icon: {fileID: 0}
+    model: {fileID: 4238135973665710441, guid: 158497e8a9e474d31a45d71035d41d8b, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B81.2\u500D/\u5F31\u70B9\u30C0\u30E1\u30FC\u30B80.6\u500D"
+    stats: {fileID: 11400000, guid: 95d6db4dedaeb46b1aefcc5f01e3f484, type: 2}
+  - statName: "\u91CD\u706B\u85AC\u5F3E"
+    defaultPrice: 75
+    icon: {fileID: 0}
+    model: {fileID: 4238135973665710441, guid: 158497e8a9e474d31a45d71035d41d8b, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B81.15\u500D/\u5C04\u6483\u30EC\u30FC\u30C80.75\u500D"
+    stats: {fileID: 11400000, guid: 770590de033b747e0b0a2bc67f239502, type: 2}
+  - statName: "\u6539\u9020\u5F3E"
+    defaultPrice: 80
+    icon: {fileID: 0}
+    model: {fileID: 4238135973665710441, guid: 158497e8a9e474d31a45d71035d41d8b, type: 3}
+    detailtext: "\u30C0\u30E1\u30FC\u30B81.25\u500D/\u30EA\u30ED\u30FC\u30C9\u6642\u95931.5\u500D"
+    stats: {fileID: 11400000, guid: ae0e814912ead41a6a3085cbe7c71da1, type: 2}
+  - statName: "\u8EFD\u91CF\u30DE\u30AC\u30B8\u30F3"
+    defaultPrice: 80
+    icon: {fileID: 0}
+    model: {fileID: 143089954165331799, guid: d8a22b0d0eb214c698dc4d4d48c43ca2, type: 3}
+    detailtext: "\u30DE\u30AC\u30B8\u30F3\u5BB9\u91CF0.8\u500D/\u30EA\u30ED\u30FC\u30C9\u901F\u5EA61.1\u500D"
+    stats: {fileID: 11400000, guid: 6057dff30c0014078b491aec04fe05aa, type: 2}
+  - statName: "\u5927\u578B\u30DE\u30AC\u30B8\u30F3"
+    defaultPrice: 70
+    icon: {fileID: 0}
+    model: {fileID: 143089954165331799, guid: d8a22b0d0eb214c698dc4d4d48c43ca2, type: 3}
+    detailtext: "\u30DE\u30AC\u30B8\u30F3\u5BB9\u91CF1.35\u500D/\u30EA\u30ED\u30FC\u30C9\u901F\u5EA60.4\u500D"
+    stats: {fileID: 11400000, guid: 8caa31dee76f2448c8f5201fc5c29b78, type: 2}
+  - statName: "\u72D9\u6483\u7528\u30D0\u30EC\u30EB"
+    defaultPrice: 100
+    icon: {fileID: 0}
+    model: {fileID: 3708033556224249761, guid: 7749fcbca95d44adcabf5512692e2858, type: 3}
+    detailtext: "\u5C04\u6483\u30EC\u30FC\u30C80.7\u500D/\u5F31\u70B9\u30C0\u30E1\u30FC\u30B81.5\u500D"
+    stats: {fileID: 11400000, guid: 47377686135ca4c90ad0ee7639e6197e, type: 2}
+  - statName: "\u30B9\u30CA\u30A4\u30D1\u30FC\u30B9\u30C8\u30C3\u30AF"
+    defaultPrice: 50
+    icon: {fileID: 0}
+    model: {fileID: 3708033556224249761, guid: 7749fcbca95d44adcabf5512692e2858, type: 3}
+    detailtext: "\u53CD\u52D50.8\u500D/\u5C04\u6483\u30EC\u30FC\u30C80.95\u500D"
+    stats: {fileID: 11400000, guid: 1b5dc12fdd6e54043aada421e2574894, type: 2}
+  - statName: "\u72D9\u6483\u7528\u30D1\u30FC\u30C4"
+    defaultPrice: 100
+    icon: {fileID: 0}
+    model: {fileID: 3708033556224249761, guid: 7749fcbca95d44adcabf5512692e2858, type: 3}
+    detailtext: "\u53CD\u52D50.9\u500D/\u5F31\u70B9\u30C0\u30E1\u30FC\u30B81.2\u500D"
+    stats: {fileID: 11400000, guid: 425915b56f9004df09a2d7d72a82dbe4, type: 2}

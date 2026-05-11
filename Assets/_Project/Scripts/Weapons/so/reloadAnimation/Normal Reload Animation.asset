@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f84e9b82c27a426e9075b75b8c25e9f, type: 3}
+  m_Name: Normal Reload Animation
+  m_EditorClassIdentifier: Assembly-CSharp::normalReloadAnimation
+  reloadTime: 3.5
+  baseTiltTime: 0.5
+  baseDropTime: 1
+  baseInsertTime: 1
+  baseDropToInsertTime: 0.5
+  tiltAngle: {x: 0, y: 0, z: -45}
+  dropDistance: {x: 0, y: -1, z: 0}
+  spawnPoint: {x: 0, y: -1, z: 0}
+  shakeStrength: 11
+  handMagazinePoint: {x: 0.262, y: 0.715, z: -0.236}
+  tekubiHandMagazineRotation: {x: 0, y: 0, z: 45}
+  magOutClip: {fileID: 8300000, guid: 1abe82a69d7ea4da89bcf7edb5a89316, type: 3}
+  magInsertClip: {fileID: 8300000, guid: 4a8bfdeca0e4d46f0bf19159c2fa513b, type: 3}
+  magHitClip: {fileID: 8300000, guid: 0e0ff929a26ca42c484f95df68057d94, type: 3}
