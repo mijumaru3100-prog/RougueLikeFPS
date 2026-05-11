@@ -69,7 +69,7 @@ public int maxAmmo => Mathf.RoundToInt((baseMaxAmmo + stats.bonusMaxAmmo) * stat
 -[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
 -[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
 - [PlayerManager.cs](URL): スクリプトの連携管理
--[PlayerStats.cs](URL):バフステータスを管理　
+-[PlayerStats.cs](Assets/_Project/Scripts/Player/stats.cs):バフステータスを管理　
 
 
 
