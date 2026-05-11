@@ -42,7 +42,7 @@ public virtual void OnKillEnemy(PlayerManager manager) { }
 public virtual void OnTakeDamage(PlayerManager manager, float damage) { }
 他にもたくさんあります
 ```
-## ③動的なバフ変動とScriptableObjectによるバフ管理
+## ③動的なバフ変動
 このゲームはパッシブ効果やステータスの購入によって武器の性能が大きく変わります。特にFireRateやDamageなどリアルタイムの影響が大きい場合は以下のような計算方法を行っています。[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
 ```csharp
     public int damage
@@ -52,8 +52,10 @@ public virtual void OnTakeDamage(PlayerManager manager, float damage) { }
             float totalMult = stats.damageMultiple;
             if (pManager != null)
             {
+                // パッシブ効果を動的に乗算
                 foreach (var p in pManager.activePassives) totalMult *= p.GetDamageMultiplier(pManager);
             }
+            // (基礎値 + 加算値) × 総倍率 で最終的なダメージを算出
             return Mathf.RoundToInt((baseDamage + stats.bonusDamage) * totalMult);
         }
     }
@@ -63,9 +65,11 @@ public virtual void OnTakeDamage(PlayerManager manager, float damage) { }
 ```csharp
 public int maxAmmo => Mathf.RoundToInt((baseMaxAmmo + stats.bonusMaxAmmo) * stats.maxAmmoMultiple);
 ```
-
-
-
+主要なソースコードへのリンク
+-[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
+-[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
+- [PlayerManager.cs](URL): スクリプトの連携管理
+-[PlayerStats.cs](URL):バフステータスを管理　
 
 
 
