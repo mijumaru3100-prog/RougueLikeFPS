@@ -34,7 +34,7 @@
         }
 }
 ```
-パッシブ側は以下のようなフックを持っています[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
+パッシブ側は以下のようなフックを持っています。[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
 ```csharp
 public virtual void OnShot(PlayerManager manager) { }
 public virtual void OnReloadComplete(PlayerManager manager) { }
@@ -59,7 +59,7 @@ public virtual void OnTakeDamage(PlayerManager manager, float damage) { }
     }
 ```
 ②と似た原理で管理しています。
-リアルタイム変化の影響が少ない数値は以下のようになっています[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
+リアルタイム変化の影響が少ない数値は以下のようになっています。[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
 ```csharp
 public int maxAmmo => Mathf.RoundToInt((baseMaxAmmo + stats.bonusMaxAmmo) * stats.maxAmmoMultiple);
 ```
