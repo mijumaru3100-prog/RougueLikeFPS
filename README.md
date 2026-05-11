@@ -66,10 +66,10 @@ public virtual void OnTakeDamage(PlayerManager manager, float damage) { }
 public int maxAmmo => Mathf.RoundToInt((baseMaxAmmo + stats.bonusMaxAmmo) * stats.maxAmmoMultiple);
 ```
 主要なソースコードへのリンク
--[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
--[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
-- [PlayerManager.cs](URL): スクリプトの連携管理
--[PlayerStats.cs](Assets/_Project/Scripts/Player/stats.cs):バフステータスを管理　
+-　[GunBase.cs](Assets/_Project/Scripts/Weapons/Gunbase.cs)
+-　[PassiveEffect.cs](Assets/_Project/Scripts/passive/PassiveEffect.cs)
+- [PlayerManager.cs](Assets/_Project/Scripts/Player/PlayerManager.cs): スクリプトの連携管理
+-　[PlayerStats.cs](Assets/_Project/Scripts/Player/stats.cs):バフステータスを管理　
 
 
 
